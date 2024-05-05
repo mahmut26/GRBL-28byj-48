@@ -24,3 +24,7 @@ This library uses a lot of things from above. I changed some pins. The motors (2
 Spindle stop GRBL code is not changing the value of pin 11. Spindle start GRBL code is needed for pin 11 to start. Spindle control values S0 and S10000 are working for changing the value.  
 
 This is my first Github fork so i hope you will enjoy it. 
+
+spindle_control.c now can work with PWM. M3 SXXXX now works and M5 is stops. Just change file in v1.zip and enjoy. Also my GRBL settings are in the settings.txt. Thank you :) 
+
+[Previous one was for servo motors.]
